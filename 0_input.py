@@ -3,9 +3,9 @@
 Record the six "si" syllables, extract their pitch contours and plot them.
 
 Usage:
-    python tone_v0.py record   # record si1..si6 into recordings/
-    python tone_v0.py plot     # analyse recordings/ and save tones_v0.png
-    python tone_v0.py wave si2 # raw waveform, zoom and spectrogram for one word
+    python 0_input.py record   # record si1..si6 into recordings/
+    python 0_input.py plot     # analyse recordings/ and save tones_v0.png
+    python 0_input.py wave si2 # raw waveform, zoom and spectrogram for one word
 
 You can also skip recording and drop your own files into recordings/
 named si1.wav ... si6.wav (e.g. recorded on your phone and converted to WAV).
